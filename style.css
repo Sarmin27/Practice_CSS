@@ -1,3 +1,8 @@
+@font-face{
+    font-family:AlexBrush-Regular;
+    src:url(/Font/AlexBrush-Regular.ttf);
+}
 h3{
     color:red;
+    font-family:AlexBrush-Regular;
 }
