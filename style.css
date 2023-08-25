@@ -5,7 +5,27 @@
 h3{
     color:red;
     font-family:AlexBrush-Regular;
+
+
 }
 p{
     font-family:'Oswald', sans-serif;
+    text-align: justify;
+    text-indent:25px;
+    line-height:3;
+    text-shadow: 10px 10px 10px;
+
+}
+h4{
+    font-family:'Oswald', sans-serif;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+h1{
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
