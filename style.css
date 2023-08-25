@@ -1,8 +1,11 @@
 @font-face{
     font-family:AlexBrush-Regular;
-    src:url(/Font/AlexBrush-Regular.ttf);
+    src:url(./Font/AlexBrush-Regular.ttf);
 }
 h3{
     color:red;
     font-family:AlexBrush-Regular;
+}
+p{
+    font-family:'Oswald', sans-serif;
 }
