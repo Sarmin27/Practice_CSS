@@ -46,3 +46,29 @@ p{
     color: blue;
     font-weight: bold;
 }
+.dada{
+    font-size:15px;
+    color: forestgreen;
+}
+/*---------------------------General sibling selector---------------*/
+p~h2{
+    color: red;
+}
+h1~p{
+    color: blue;
+}
+/*---------------------------Adjacent sibling selector---------------*/
+h5+p{
+    color: crimson;
+}
+/*-------------------------Child selector(>)------------*/
+.baba>h2{
+    color:orange;
+
+}
+.pappa h2{
+    color:aqua;
+    font-size:medium;
+}
+
+
