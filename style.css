@@ -8,6 +8,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /*-----------------Tag Selector-----------------*/
@@ -70,5 +71,78 @@ h5+p{
     color:aqua;
     font-size:medium;
 }
+/*----------------------------------CSS Box Model----------------------------*/
 
+.box_1{
+    background-color: rgb(222, 231, 231);
+    color: white;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 10px solid rgb(32, 5, 32);  
+    margin-bottom: 10px; 
+}
+.box_2{
+    background-color:green;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    
+  
+}
+.redbox{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+   
+}
+.box{
+    background-color: tomato;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.box1{
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.box2{
+    background-color: rgb(87, 35, 155);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+}
+.box3{
+    background-color: rgb(143, 220, 20);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transform: rotate(45deg);
+}
 
