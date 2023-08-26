@@ -2,6 +2,15 @@
     font-family:AlexBrush-Regular;
     src:url(./Font/AlexBrush-Regular.ttf);
 }
+
+/*---------------------------SELECTORS--------------------*/
+/*-----------------Universal Selector-----------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-----------------Tag Selector-----------------*/
 h3{
     color:red;
     font-family:AlexBrush-Regular;
@@ -16,7 +25,8 @@ p{
     text-shadow: 10px 10px 10px;
 
 }
-h4{
+/*-----------------Class Selector-----------------*/
+.odd{
     font-family:'Oswald', sans-serif;
     font-weight:800;
     font-style:italic;
@@ -24,8 +34,15 @@ h4{
     text-transform:uppercase;
     word-spacing: 10px;
     letter-spacing: 10px;
+    color: blueviolet;
 }
-h1{
+/*-----------------ID Selector-----------------*/
+#add{
     direction: rtl;
     unicode-bidi: bidi-override;
+}
+/*-----------------Attribute Selector-----------------*/
+[type=submit]{
+    color: blue;
+    font-weight: bold;
 }
