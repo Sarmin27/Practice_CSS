@@ -131,6 +131,7 @@ h5+p{
     left: 0px;
     right: 0px;
     bottom: 0px;
+    transform: rotate(45deg);
 
 }
 .box3{
@@ -143,6 +144,27 @@ h5+p{
     left: 0px;
     right: 0px;
     bottom: 0px;
-    transform: rotate(45deg);
+    border-radius: 50%;
 }
+a{
+    background-color:white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-color:rgb(46, 121, 172);
+    color: black;
+    transition: o.5s all;
+}
+.button{
+    border-radius: 10%;
+}
+a:hover{
+    background-color:rgb(46, 121, 172);
+    color: white;
+    
+}
+
 
